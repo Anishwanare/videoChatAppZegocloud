@@ -1,0 +1,60 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hero {
+  background: rgba(0, 0, 0, 0.75) url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM7RdV-9DAirKvHw30i8iyVn-0yWonPB5eAtm2n6Xl0g&s");
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+ min-height:80vh ;
+}
+
+.container{
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 100px 20px;
+}
+
+.container div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container div input{
+  font-size: 22px;
+  padding: 6px 3px;
+  width: 320px;
+}
+
+.container div button{
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background: rgb(61, 61, 250);
+  font-size: 22px;
+  padding: 10px;
+}
